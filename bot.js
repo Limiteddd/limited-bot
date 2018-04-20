@@ -5,14 +5,14 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
-    if (message.content === 'torrent') {
-    	message.reply('Úristen kalózkodós poor kid vagy,vedd meg inkább a játékot ne töltsd le torrentel!');
- 	}
-  client.on('message', message => {
-    if (message.content === 'windows') {
-    	message.reply('Majd én tudom milyen windows-t használok jó?');
-        }
+if(command === 'ping') {
+  message.channel.send('Pong!');
+} else
+if (command === 'blah') {
+  message.channel.send('Meh.');
+}
+ 
+
 });
 
 // THIS  MUST  BE  THIS  WAY
