@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === 'torrent') {
+    	message.reply('Úristen kalózkodós poor kid vagy,vedd meg inkább a játékot ne töltsd le torrentel!');
   	}
 });
 
