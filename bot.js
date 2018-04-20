@@ -9,7 +9,10 @@ client.on('message', message => {
     if (message.content === 'torrent') {
     	message.reply('Úristen kalózkodós poor kid vagy,vedd meg inkább a játékot ne töltsd le torrentel!');
  	}
-  
+  client.on('message', message => {
+    if (message.content === 'windows') {
+    	message.reply('Majd én tudom milyen windows-t használok jó?');
+        }
 });
 
 // THIS  MUST  BE  THIS  WAY
