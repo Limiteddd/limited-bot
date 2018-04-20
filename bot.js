@@ -8,6 +8,8 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'torrent') {
     	message.reply('Úristen kalózkodós poor kid vagy,vedd meg inkább a játékot ne töltsd le torrentel!');
+        if (message.content === 'csaló') {
+    	message.reply('NYOMORÉK CSALÓ!!!');
   	}
 });
 
